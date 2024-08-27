@@ -9,6 +9,7 @@ function ListGroup() {
     return (
         <>
             <h1>List</h1>
+            {items.length==0&&"No item founded"}
             <ul className="list-group">
                 {
                     items.map((item) => (
